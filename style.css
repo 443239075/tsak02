@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notes-list {
+    margin-bottom: 20px;
+}
+
+.note {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.note h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.note p {
+    margin-bottom: 10px;
+}
+
+# create-note-form {
+    margin-top: 20px;
+}
+
+#title, #content {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#create-note-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#create-note-btn:hover {
+    background-color: #3e8e41;
+}
